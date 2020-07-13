@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="#170B2C"
+    app:cardBackgroundColor="#170B2C"
+    tools:viewBindingIgnore="true">
+
+
+    <TextView
+        android:id="@+id/post_title_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:padding="10dp"
+        android:text="The text will be there"
+        android:textColor="#FFEA00"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/post_userid_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:editable="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="The User id will be there. "
+        android:textColor="#FFEA00"
+        app:layout_constraintTop_toBottomOf="@+id/post_title_detail"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+
+    <TextView
+        android:id="@+id/post_applyuserids_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:editable="false"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:text="The Apply ids will be there. "
+        android:textColor="#FFEA00"
+        app:layout_constraintTop_toBottomOf="@+id/post_userid_detail"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        android:singleLine="false"
+        android:maxEms="5"/>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

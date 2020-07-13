@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="expandableView" type="id" />
+    <item name="cardView" type="id" />
+    <item name="btnExpand" type="id" />
+    <item name="btnApply" type="id" />
+    <item name="post_key" type="id" />
+    <item name="post_applyuserids" type="id" />
+    <item name="btnTest" type="id" />
+    <item name="btnPostDetail" type="id" />
+</resources>
